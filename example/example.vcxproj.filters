@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackmagicATEM\src\ofxBlackmagicATEM.cpp">
+			<Filter>addons\ofxBlackmagicATEM\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackmagicATEM\libs\include\BMDSwitcherAPI_i.c">
+			<Filter>addons\ofxBlackmagicATEM\libs\include</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackmagicATEM">
+			<UniqueIdentifier>{41F27458-4FCE-7A9D-7F6D-AFC2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackmagicATEM\src">
+			<UniqueIdentifier>{6054094E-7C0D-7F96-7A0D-2397}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackmagicATEM\libs">
+			<UniqueIdentifier>{3FBAFDE4-9264-9DF2-E5FC-1792}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackmagicATEM\libs\include">
+			<UniqueIdentifier>{209EFBCF-E096-8FC8-2051-C854}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackmagicATEM\src\ATEMInput.h">
+			<Filter>addons\ofxBlackmagicATEM\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackmagicATEM\src\ofxBlackmagicATEM.h">
+			<Filter>addons\ofxBlackmagicATEM\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackmagicATEM\libs\include\BMDSwitcherAPI_h.h">
+			<Filter>addons\ofxBlackmagicATEM\libs\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
